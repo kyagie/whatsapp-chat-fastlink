@@ -1,38 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body {
+  background-color: #03906a;
+  font-family: 'Arvo', serif;
+}
+
 .App {
   text-align: center;
+  color: #fff;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Column {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.Middle {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 40vh;
 }
 
-.App-link {
-  color: #61dafb;
+.Bold {
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Title {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.ButtonArea {
+  margin-top: 10px;
 }
