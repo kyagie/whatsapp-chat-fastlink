@@ -35,7 +35,7 @@ function App() {
       </div>
 
       <div className="Middle">
-        <p className="Bold">Start Chatting 💬 with</p>
+        <p className="Bold">Start Chat 💬 with</p>
         <div>
           <Box sx={{ flexGrow: 1 }}>
             <PhoneInput
