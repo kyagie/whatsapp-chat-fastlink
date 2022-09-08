@@ -12,7 +12,7 @@ function App() {
   //On Submit
   const handleSubmit = (event) => {
     event.preventDefault();
-    window.open(`https://wa.me/${phoneNumber}`, "_blank");
+    window.open(`https://wa.me/${phoneNumber}`);
   };
 
   return (
@@ -30,7 +30,7 @@ function App() {
           WhatsApp Fastlink
         </p>
         <p className="Title">
-          📲 Initiate a WhatsApp conversation before you can save a contact.
+          📲 Start a WhatsApp conversation before you can save a contact.
         </p>
       </div>
 
