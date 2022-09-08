@@ -33,23 +33,22 @@ body {
 .Title {
   font-size: 1.3rem;
   font-weight: 300;
+  text-align: center;
 }
 
 .ButtonArea {
   margin-top: 10px;
 }
 
-#country-code-label {
+#submit {
   color: #fff;
   font-weight: 500;
+  font-family: 'Arvo', serif;
+  background-color: #26b58f;
+  width: 250px;
 }
 
-#country-code-select {
-  color: #fff;
-  font-weight: 500;
-}
-
-#telephone {
-  color: #fff;
-  font-weight: 800;
+.Footer {
+  margin-top: 20px;
+  font-size: 0.8rem;
 }
